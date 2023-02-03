@@ -1,0 +1,33 @@
+.boton-contenedor{
+    
+    height: 73px;
+    display: flex;
+    flex:1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #7fd37f;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.boton-contenedor:hover{
+    box-shadow: 2px 2px 2px #191b19a6;
+    background-color: #abd8ab;
+    color: rgba(54, 51, 51, 0.733);
+}
+
+.operador{
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.operador:hover{
+    box-shadow: 2px 2px 2px #191b19a6;
+    background-color: #d6ccce73;;
+}
